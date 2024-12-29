@@ -1,1 +1,3 @@
-# Normal_and_Geometric_Variables_Simulation
+# Stochastic_Methods
+
+Tema 2 Tehnici de Simualre 
