@@ -14,6 +14,8 @@ Sa se genereze variabila geometrica prin doua metode.
 - **Avantaje:** Simplă, ușor de implementat.  
 - **Dezavantaje:** Necesită un număr mare de variabile uniforme pentru precizie.  
 
+![TLC](histograme/tlc.png)
+
 **Observație:** Histograma a arătat o distribuție apropiată de curba teoretică, iar media și varianța au fost validate numeric.
 
 ### **1.2 Metoda Polară (Box-Muller)**  
@@ -21,7 +23,7 @@ Sa se genereze variabila geometrica prin doua metode.
 - **Avantaje:** Rapidă, precisă.  
 - **Dezavantaje:** Necesită validarea condiției pentru valori uniforme.  
 
-
+![BM](histograme/polar.png)
 **Observație:** Histograma și curba teoretică s-au suprapus mai bine.
 
 **Concluzie:** Metoda Polară este mai precisă și mai eficientă decât metoda CLT.
@@ -35,12 +37,15 @@ Sa se genereze variabila geometrica prin doua metode.
 - **Avantaje:** Directă, eficientă.  
 - **Dezavantaje:** Necesită calcul logaritmic.
 
+![MI](histograme/inversa.png)
 **Observație:** Histograma s-a aliniat bine cu distribuția teoretică.
 
 ### **2.2 Metoda Pascal (Simulare Directă prin Bernoulli)**  
 - **Principiu:** Numără încercările Bernoulli până la primul succes.  
 - **Avantaje:** Intuitivă, clară.  
 - **Dezavantaje:** Ineficientă pentru valori mici ale probabilității \( p \).  
+
+![PASCAL](histograme/pascal.png)
 
 **Observație:** Histograma și curba teoretică au fost bine aliniate.
 
